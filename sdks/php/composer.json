@@ -1,0 +1,19 @@
+{
+    "name": "google/agones",
+    "description": "Game Server SDK for Agones, the open source project for hosting dedicated game servers on Kubernetes",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "castaneai",
+            "email": "castaneai@castaneai.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ext-grpc": "*"
+    },
+    "suggest": {
+        "ext-protobuf": "Provides a significant increase in throughput over the pure PHP protobuf implementation. See https://cloud.google.com/php/grpc for installation instructions."
+    }
+}
